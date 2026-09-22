@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "entities-godot-mujoco-demo"
+abstract: "Stock Godot RigidBody3D boxes on a floor, simulated by the native MuJoCo PhysicsServer3DExtension."
+authors:
+  - name: "V-Sekai-fire"
+  - name: "chibifire"
+license: "Apache-2.0 OR MIT"
+repository-code: "https://github.com/V-Sekai-fire/entities-godot-mujoco-demo"

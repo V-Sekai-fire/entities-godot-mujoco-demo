@@ -10,7 +10,7 @@ The scene uses only stock rigid and static bodies, with the project's 3D physics
 
     godot --path .
 
-The extension binaries in `addons/mujoco` come from the `entities-godot-mujoco` build.
+The extension binaries in `addons/mujoco` come from the `entities-godot-mujoco` build. The tracked binaries are for Windows x86_64 only, so other platforms need their own build of the extension.
 
 ## Licence
 

@@ -1,24 +1,17 @@
 # entities-godot-mujoco-demo
 
-Stock Godot RigidBody3D boxes dropping onto a floor, simulated by the native MuJoCo PhysicsServer3DExtension.
+A Godot scene of rigid boxes dropping onto a floor, simulated by the native MuJoCo physics server extension.
 
-## What this is
+## What it is for
 
-A minimal scene -- a static floor and a few `RigidBody3D` boxes -- that uses no
-custom nodes. The physics comes from [`entities-godot-mujoco`](https://github.com/V-Sekai-fire/entities-godot-mujoco),
-a `PhysicsServer3DExtension` backed by MuJoCo linked natively, selected in
-`project.godot` as the `MuJoCo` 3D physics engine. Godot creates the bodies and
-shapes; the extension builds them into an `mjSpec`, compiles, and steps
-`mj_step`, handing each body's transform back so the node follows.
+The scene uses only stock rigid and static bodies, with the project's 3D physics engine set to the extension from [entities-godot-mujoco](https://github.com/V-Sekai-fire/entities-godot-mujoco). It shows that extension running ordinary engine physics without custom nodes.
 
 ## Run
 
     godot --path .
 
-The extension binaries live in `addons/mujoco/bin/` (`libgodot_mujoco...dll` plus
-`libmujoco.dll`). Build them from `entities-godot-mujoco` and copy them here, or
-take them from that repo's CI.
+The extension binaries in `addons/mujoco` come from the `entities-godot-mujoco` build.
 
-## Credit
+## Licence
 
-V-Sekai-fire and chibifire.
+Apache-2.0 OR MIT, as `CITATION.cff` declares. The repository carries no licence file.

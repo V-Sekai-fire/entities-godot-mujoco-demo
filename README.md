@@ -14,4 +14,4 @@ The extension binaries in `addons/mujoco` come from the `entities-godot-mujoco` 
 
 ## Licence
 
-Apache-2.0 OR MIT, as `CITATION.cff` declares. The repository carries no licence file.
+MIT. See [LICENSE](LICENSE).
